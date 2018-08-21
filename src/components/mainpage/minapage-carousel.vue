@@ -1,6 +1,6 @@
 <template>
     <div>
-        <mu-carousel class="carousel" hide-controls transition='fade'>
+        <mu-carousel class="carousel" hide-controls transition='slide'>
             <mu-carousel-item v-for='(path,index) in images_path' :key='index'>
                 <img :src="path" >
             </mu-carousel-item>
